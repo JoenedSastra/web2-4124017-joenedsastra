@@ -21,6 +21,16 @@ Route::get('/sitimasito', function () {
             <p>Kolaborator project Laravel</p>';
 });
 
+//aku sebagai kolaburator
+Route::get('/perkenalan', function () {
+
+    return '<h1>Halo! Nama saya Joened Sastra</h1>
+
+            <p>NIM: 4124017 | Prodi: Sistem Informasi</p>
+
+            <p>Saya siap belajar Laravel! 🚀</p>';
+});
+
 
 //tiga route statis
 Route::get('/about', function () {
